@@ -1,0 +1,14 @@
+1: Find two numbers in array such that they add up to a specific target; 
+Use a map.
+
+3: Longest Substring Without Repeat Characters;
+Sliding window.
+Use map to store characters.
+Remove conflicting character and all characters preceding it.
+
+4: Median of Two Sorted Arrays;
+Merge, then find median.
+
+5: Longest Palindrome
+Manacher's algorith is O(N).
+Expand around center is faster (O(N^2)) than brute force (O(N^3)).
