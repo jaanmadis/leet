@@ -12,3 +12,7 @@ Merge, then find median.
 5: Longest Palindrome
 Manacher's algorith is O(N).
 Expand around center is faster (O(N^2)) than brute force (O(N^3)).
+
+7: Reverse Integer
+JavaScript bitwise not (~) will omit fractional part, if used on number.
+n % 10 = n's last digit.
