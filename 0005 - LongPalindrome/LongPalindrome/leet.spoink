@@ -1,0 +1,3 @@
+5: Longest Palindrome
+Manacher's algorith is O(N).
+Expand around center is faster (O(N^2)) than brute force (O(N^3)).

@@ -1,0 +1,4 @@
+3: Longest Substring Without Repeat Characters;
+Sliding window.
+Use map to store characters.
+Remove conflicting character and all characters preceding it.

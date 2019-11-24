@@ -1,0 +1,21 @@
+967: Numbers With Same Consecutive Differences
+
+/*
+Return all non-negative integers of length N such that the absolute difference between every two consecutive digits is K.
+Note that every number in the answer must not have leading zeros except for the number 0 itself. 
+For example, 01 has one leading zero and is invalid, but 0 is valid.
+You may return the answer in any order.
+
+Input: N = 3, K = 7
+Output: [181,292,707,818,929]
+
+Input: N = 2, K = 1
+Output: [10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]
+
+1 <= N <= 9 // length of the number
+0 <= K <= 9 // difference between digits 
+*/
+
+Start with elements 1, 2, 3, 4, 5, 6, 7, 8, 9.
+For each element create 0 to 2 new elements if element's lastDigit + K < 10 and also if element's lastDigit - K >= 0.
+Repeat process with new elements, halt when you reach desired length N.

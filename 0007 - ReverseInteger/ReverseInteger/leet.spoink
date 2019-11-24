@@ -1,0 +1,3 @@
+7: Reverse Integer
+JavaScript bitwise not (~) will omit fractional part, if used on number.
+n % 10 = n's last digit.
